@@ -36,7 +36,7 @@ successfully.
 A condensed usage might look something like this:
 
 ```rust
-use tracing_fluent_assertions::{AssertionLayer, AssertionRegistry};
+use tracing_fluent_assertions::{AssertionsLayer, AssertionRegistry};
 use tracing_subscriber::{layer::SubscriberExt, Registry};
 
 fn main() {
